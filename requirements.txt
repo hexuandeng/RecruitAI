@@ -1,0 +1,35 @@
+torch<=2.3.0
+scipy
+packaging
+sentencepiece
+datasets
+deepspeed==0.14.4
+accelerate==0.31.0
+peft>=0.11.1
+bitsandbytes>=0.41.1
+evaluate>=0.4.0
+tokenizers==0.19.1
+protobuf
+transformers==4.43.4
+openai>=1.0.0
+tiktoken
+rouge_score
+tensorboard
+wandb
+gradio>=3.50.2
+termcolor
+jsonlines
+unidic-lite
+einops
+# flash-attn==2.5.8 # should really only be in dockerfile. Local env often doesn't have GPUs 
+fire
+alpaca-eval==0.6.2
+# for linting
+black
+flake8
+isort
+autoflake
+pytest
+hf_transfer
+beaker-py
+vllm==0.5.1
